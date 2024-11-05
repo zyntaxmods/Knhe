@@ -21,6 +21,7 @@ body{
 }
 .header p{
   margin-top:10px;
+  transition: 1s;
 }
 .header input{
   width:300px;
