@@ -16,5 +16,8 @@ let button = document.getElementById("reveal").addEventListener('click', functio
   else if(count == 4){
     let message = document.getElementById("msg");
   message.style.display = "block";
+  const audio = document.getElementById("song");
+  audio.muted = false;
+  audio.play();
   }
 })
