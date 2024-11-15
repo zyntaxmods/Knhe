@@ -5,6 +5,8 @@
 }
 body{
   font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .header{
   width:700px;
@@ -15,6 +17,8 @@ body{
   margin:auto;
   font-size: 25px;
   padding-top:400px;
+  position: relative;
+  z-index: 1;
 }
 .header img{
   width:500px;
@@ -81,4 +85,10 @@ body{
     font-size:14px;
   }
   
+}
+.background{
+  position: absolute;
+  opacity: 3;
+  color:white;
+  z-index: 0;
 }
