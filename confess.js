@@ -19,5 +19,8 @@ let button = document.getElementById("reveal").addEventListener('click', functio
   const audio = document.getElementById("song");
   audio.muted = false;
   audio.play();
+  let jee = document.getElementById("jee");
+  jee.start();
+  jee.style.display = "inline";
   }
 })
